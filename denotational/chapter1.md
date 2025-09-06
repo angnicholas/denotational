@@ -37,6 +37,26 @@ If we give precise instructions to Mike as to how he should do this, it will loo
     b. If the tag is `Add`, perform the computation on both branches, add the two results together and return it.
     c. If the tag is `Multiply`, perform the computation on both branches, multiply the two results together and return it.
 
+
+
+
+
+
+Topics
+
+Apart from those on the board
+
+
+
+
+
+
+
+
+
+
+
+
 ## Visualizing Tree Denotation
 
 Let's visualize the tree structure and its denotation. Consider the expression `2 + (3 × 4)`:
