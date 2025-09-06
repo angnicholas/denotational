@@ -1,4 +1,25 @@
 
+Semantics decouples (cf SOLID, OOP/SWE principles) the logic of proving correctness of a program from proving the correctness of your language compiler 
+
+Ie. 
+
+If you wanted to prove that your Python implementation of Floyd Warshall works, you have to know Floyd Warshall works, and that your Python interpreter works.
+
+If you do that each time, it's coupled.
+
+So we prove that Python works one time, and then we can use (cf Algorithms course-style proofs) for Floyd Warshall.
+
+To prove that Python works, we need to formally define the behaviour of any python program 
+
+And that is semantics.
+
+
+
+
+
+
+
+
 - Introduce programs
 - Introduce denotation as what the program should resolve to
 - Introduce functions as deferred computation
