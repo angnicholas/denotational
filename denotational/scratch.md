@@ -17,6 +17,16 @@ And that is semantics.
 
 
 
+We dont' care about semantics if we are just vibe coding the language - if the corner cases don't matter.
+
+But when the corner cases do matter (eg. space shuttle), we do want to answer the question: Given an arbitrary tree, what will it do
+
+And that means trawling through every single last edge case and convincing myself that I can precisely define the behaviour.
+
+Why doesn't the space shuttle just NOT have while loops?
+
+Good question.
+
 
 
 
