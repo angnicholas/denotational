@@ -9,6 +9,8 @@ If you do that each time, it's coupled.
 
 So we prove that Python works one time, and then we can use (cf Algorithms course-style proofs) for Floyd Warshall.
 
+And you join this together in the end using some system - eg Agda or Rocq (formerly Coq) or Hoare Logic 
+
 To prove that Python works, we need to formally define the behaviour of any python program 
 
 And that is semantics.
