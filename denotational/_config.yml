@@ -1,9 +1,29 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: My sample book
-author: The Jupyter Book Community
+title: Denotational Semantics
+author: Your Name
 logo: logo.png
+
+# Enable math notation and extensions
+
+sphinx:
+  extra_extensions:
+    - sphinxcontrib.mermaid
+
+# sphinx:
+#   config:
+#     extensions:
+#       - sphinx_design
+#       - sphinxcontrib.mermaid
+#       - myst_nb
+#       - sphinx_copybutton
+#       - sphinx_togglebutton
+#     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+#     mathjax3_config:
+#       tex:
+#         inlineMath: [['$', '$'], ['\\(', '\\)']]
+#         displayMath: [['$$', '$$'], ['\\[', '\\]']]
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
