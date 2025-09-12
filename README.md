@@ -2,5 +2,5 @@ Build
 
 `jupyter-book build denotational`
 
-`https://angnicholas.github.io/denotational/intro.html`
+[View Site](https://angnicholas.github.io/denotational/intro.html)
 
