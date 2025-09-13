@@ -10,6 +10,13 @@ logo: logo.png
 sphinx:
   extra_extensions:
     - sphinxcontrib.mermaid
+  config:
+    # Enable Thebe for interactive cells
+    thebe_config:
+      repository_url: "https://github.com/angnicholas/denotational"
+      repository_branch: "master"
+      binderhub_url: "https://mybinder.org"
+      selector: ".thebe-init"
 
 # sphinx:
 #   config:
@@ -29,6 +36,7 @@ sphinx:
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
+  timeout: 300
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -50,4 +58,10 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  extra_navbar: |
+    <div class="navbar-nav">
+      <a class="nav-link" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs">
+        <i class="fas fa-external-link-alt"></i> Launch Binder
+      </a>
+    </div>
 

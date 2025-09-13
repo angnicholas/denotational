@@ -1,0 +1,52 @@
+# Thebe Configuration for Jupyter Book
+# This file shows how to configure Thebe for executable cells
+
+# Add this to your _config.yml file:
+
+html:
+  extra_navbar: |
+    <div class="navbar-nav">
+      <a class="nav-link" href="https://mybinder.org/v2/gh/YOUR_USERNAME/YOUR_REPO/master?urlpath=tree/docs">
+        <i class="fas fa-external-link-alt"></i> Launch Binder
+      </a>
+    </div>
+  
+sphinx:
+  config:
+    # Enable Thebe for interactive cells
+    thebe_config:
+      repository_url: "https://github.com/YOUR_USERNAME/YOUR_REPO"
+      repository_branch: "master"
+      binderhub_url: "https://mybinder.org"
+      selector: ".thebe-init"
+      # Optional: specify kernel
+      kernel_name: "python3"
+      # Optional: specify kernel options
+      kernel_options:
+        name: "python3"
+        path: "/home/jovyan/work"
+
+# Alternative: Use sphinx-thebe extension
+# First install: pip install sphinx-thebe
+# Then add to extensions:
+extensions:
+  - sphinx_thebe
+
+# And configure:
+thebe_config:
+  repository_url: "https://github.com/YOUR_USERNAME/YOUR_REPO"
+  repository_branch: "master"
+  binderhub_url: "https://mybinder.org"
+  selector: ".thebe-init"
+
+# For GitHub Pages deployment, also add:
+html:
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_page_button: true
+  extra_navbar: |
+    <div class="navbar-nav">
+      <a class="nav-link" href="https://mybinder.org/v2/gh/YOUR_USERNAME/YOUR_REPO/master?urlpath=tree/docs">
+        <i class="fas fa-external-link-alt"></i> Launch Binder
+      </a>
+    </div>

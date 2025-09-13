@@ -2,4 +2,9 @@ jupyter-book
 graphviz
 sphinxcontrib-mermaid
 sphinx-design
-
+matplotlib
+networkx
+numpy
+ipywidgets
+jupyter
+ipykernel
