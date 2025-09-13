@@ -15,6 +15,10 @@ repository:
   url : https://github.com/angnicholas/denotational/
   path_to_book              : denotational
   branch                    : master
+
+launch_buttons:
+  notebook_interface: "jupyterlab"  # or "classic"
+  binderhub_url: "https://mybinder.org"
 # sphinx:
 #   config:
 #     extensions:
