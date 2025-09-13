@@ -10,14 +10,11 @@ logo: logo.png
 sphinx:
   extra_extensions:
     - sphinxcontrib.mermaid
-  config:
-    # Enable Thebe for interactive cells
-    thebe_config:
-      repository_url: "https://github.com/angnicholas/denotational"
-      repository_branch: "master"
-      binderhub_url: "https://mybinder.org"
-      selector: ".thebe-init"
 
+repository:
+  url : https://github.com/angnicholas/denotational/
+  path_to_book              : denotational
+  branch                    : master
 # sphinx:
 #   config:
 #     extensions:
