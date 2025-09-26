@@ -18,7 +18,7 @@ repository:
 
 launch_buttons:
   notebook_interface: "jupyterlab"  # or "classic"
-  binderhub_url: "https://mybinder.org"
+  binderhub_url: "https://hub.gesis.mybinder.org/user/angnicholas-denotational-tryof11j/doc/tree/denotational/executable-demo.ipynb"
 # sphinx:
 #   config:
 #     extensions:
