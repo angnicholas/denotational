@@ -1,0 +1,11 @@
+This is a sample text file for testing the ChatGPT API file upload functionality.
+
+The file contains some sample content that can be analyzed by the AI assistant.
+
+Key points:
+- This is a test file
+- It contains multiple lines
+- It has some structured content
+- It can be used to demonstrate file analysis capabilities
+
+End of sample content.
